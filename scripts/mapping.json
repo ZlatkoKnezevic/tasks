@@ -1,0 +1,52 @@
+[
+  {
+      "id"    : 10,  
+      "email" : "tat.Amann_Girrbach@pidas.com",
+      "name"  : "AmannGirrbach"
+  },
+{
+      "id"    : 8,  
+      "email" : "tat.Avectris@pidas.com",
+      "name"  : "Avectris"
+  },
+{
+      "id"    : 57,  
+      "email" : "tat.AVL@pidas.com",
+      "name"  : "AVL"
+  },
+  {
+      "id"    : 15,  
+      "email" : "tat.CityCom@pidas.com",
+      "name"  : "CityCom"
+  }, 
+  {
+      "id"    : 16,  
+      "email" : "tat.Daiichi_Sankyo@pidas.com",
+      "name"  : "DaiichiSankyo"
+  },
+{
+      "id"    : 27,  
+      "email" : "tat.Keba@pidas.com",
+      "name"  : "Keba"
+  },
+{
+      "id"    : 30,  
+      "email" : "tat.Mondi@pidas.com",
+      "name"  : "Mondi"
+  },
+{
+      "id"    : 42,  
+      "email" : "tat.Sky@pidas.com",
+      "name"  : "Sky"
+  },
+  {
+      "id"    : 43,  
+      "email" : "tat.Swisslog@pidas.com",
+      "name"  : "Swisslog"
+  },
+{
+      "id"    : 36,  
+      "email" : "tat.PIDAS_Testhotline@pidas.com",
+      "name"  : "PIDAS: Testhotline"
+  }
+]

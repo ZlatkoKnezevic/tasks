@@ -1,0 +1,46 @@
+/*! COLOR OVERRIDE - CORPORATE DESIGN */
+/*! PIDAS Red/Grey
+ * brand-primary is red
+ *
+ * @gray-darker: rgb(36, 36, 36);
+ * @gray: rgb(97, 96, 96);
+ * @gray-light: rgb(138, 138, 138);
+ * @gray-lighter: rgb(243, 243, 243);
+ * @brand-primary: rgb(197, 26, 27);
+*/
+
+.btn-danger {
+  background-color: rgb(197, 26, 27);
+  border-color: rgb(197, 26, 27);
+}
+
+.btn-danger:focus {
+  background-color: rgb(197, 26, 27);
+  border-color: rgb(197, 26, 27);
+  color: rgb(255, 255, 255);
+}
+
+.btn-outline-danger {
+  border-color: rgb(197, 26, 27);
+  color: rgb(197, 26, 27);
+}
+
+.btn-outline-danger:active, .btn-outline-danger.active, .show>.btn-outline-danger.dropdown-toggle {
+  background-color: rgb(197, 26, 27);
+  border-color: rgb(197, 26, 27);
+  color: rgb(255, 255, 255);
+}
+
+.btn-outline-danger:hover {
+  background-color: rgb(197, 26, 27);
+  border-color: rgb(197, 26, 27);
+  color: rgb(255, 255, 255);
+}
+
+.datetimepicker .active {
+  background: rgb(197, 26, 27) !important;
+}
+
+.text-danger {
+	color: rgb(197, 26, 27) !important;
+}

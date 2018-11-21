@@ -1,0 +1,321 @@
+This file is the bases for mapping.json
+it was created by "P:\075_Strategic_projects\03_Projects\1703_CORE_Automation\08_Technisches_Vorgehen\04_trueAct_Tasks\Queues.xlsx"
+As no comments are permitted in JSON, this file is neccesary 
+
+[
+    {
+        "id" : 1,
+        "email": "tat.CORE_Graz@pidas.com",
+        "name": "CORE: Graz"
+    },
+    {
+        "id" : 2,
+        "email": "tat.AIT@pidas.com",
+        "name": "AIT"
+    },
+    {
+        "id" : 3,
+        "email": "tat.Andritz@pidas.com",
+        "name": "Andritz"
+    },
+    {
+        "id" : 4,
+        "email": "tat.00_Vermittlung@pidas.com",
+        "name": "PIDAS: Vermittlung"
+    },
+    {
+        "id" : 5,
+        "email": "tat.ITG@pidas.com",
+        "name": "ITG"
+    },
+    {
+        "id" : 6,
+        "email": "tat.Prinzhorn@pidas.com",
+        "name": "Prinzhorn"
+    },
+    {
+        "id" : 7,
+        "email": "tat.Testqueue@pidas.com",
+        "name": "PIDAS: Testqueue"
+    },
+    {
+        "id" : 8,
+        "email": "tat.Avectris@pidas.com",
+        "name": "Avectris"
+    },
+    {
+        "id" : 9,
+        "email": "tat._ImportVorlage@pidas.com",
+        "name": "PIDAS: Import Vorlage"
+    },
+    {
+        "id" : 10,
+        "email": "tat.Amann_Girrbach@pidas.com",
+        "name": "AmannGirrbach"
+    },
+    {
+        "id" : 11,
+        "email": "tat.Magna@pidas.com",
+        "name": "Magna"
+    },
+    {
+        "id" : 12,
+        "email": "tat.Spanische_Hofreitschule@pidas.com",
+        "name": "Spanische Hofreitschule"
+    },
+    {
+        "id" : 13,
+        "email": "tat.Anovis@pidas.com",
+        "name": "Anovis"
+    },
+    {
+        "id" : 14,
+        "email": "tat.Astra_Zeneca@pidas.com",
+        "name": "Astra Zeneca"
+    },
+    {
+        "id" : 15,
+        "email": "tat.CityCom@pidas.com",
+        "name": "CityCom"
+    },
+    {
+        "id" : 16,
+        "email": "tat.Daiichi_Sankyo@pidas.com",
+        "name": "DaiichiSankyo"
+    },
+    {
+        "id" : 17,
+        "email": "tat.Enso_Detego@pidas.com",
+        "name": "Enso Detego"
+    },
+    {
+        "id" : 18,
+        "email": "tat.ESTAG@pidas.com",
+        "name": "ESTAG"
+    },
+    {
+        "id" : 19,
+        "email": "tat.Holding_Graz_Linien@pidas.com",
+        "name": "Holding Graz Linien"
+    },
+    {
+        "id" : 20,
+        "email": "tat.IBM_MIS_AT@pidas.com",
+        "name": "IBM MIS (AT)"
+    },
+    {
+        "id" : 21,
+        "email": "tat.IBM_MIS_CH@pidas.com",
+        "name": "IBM MIS (CH)"
+    },
+    {
+        "id" : 22,
+        "email": "tat.IBM_MedAustron@pidas.com",
+        "name": "IBM MedAustron"
+    },
+    {
+        "id" : 23,
+        "email": "tat.Infoniqa@pidas.com",
+        "name": "Infoniqa"
+    },
+    {
+        "id" : 24,
+        "email": "tat.Isovolta@pidas.com",
+        "name": "Isovolta"
+    },
+    {
+        "id" : 25,
+        "email": "tat.Kaba@pidas.com",
+        "name": "Kaba"
+    },
+    {
+        "id" : 26,
+        "email": "tat.Kantonsspital_Baden@pidas.com",
+        "name": "Kantonsspital Baden"
+    },
+    {
+        "id" : 27,
+        "email": "tat.Keba@pidas.com",
+        "name": "Keba"
+    },
+    {
+        "id" : 28,
+        "email": "tat.Krages@pidas.com",
+        "name": "Krages"
+    },
+    {
+        "id" : 29,
+        "email": "tat.MA01@pidas.com",
+        "name": "MA01"
+    },
+    {
+        "id" : 30,
+        "email": "tat.Mondi@pidas.com",
+        "name": "Mondi"
+    },
+    {
+        "id" : 31,
+        "email": "tat.Neuroth@pidas.com",
+        "name": "Neuroth"
+    },
+    {
+        "id" : 32,
+        "email": "tat.PIDAS_ASC@pidas.com",
+        "name": "PIDAS: ASC"
+    },
+    {
+        "id" : 33,
+        "email": "tat.PIDAS_IT@pidas.com",
+        "name": "PIDAS: IT"
+    },
+    {
+        "id" : 34,
+        "email": "tat.PIDAS Mystery Calls@pidas.com",
+        "name": "PIDAS: Mystery Calls"
+    },
+    {
+        "id" : 35,
+        "email": "tat.PIDAS_Office@pidas.com",
+        "name": "PIDAS: Office"
+    },
+    {
+        "id" : 36,
+        "email": "tat.PIDAS_Testhotline@pidas.com",
+        "name": "PIDAS: Testhotline"
+    },
+    {
+        "id" : 37,
+        "email": "tat.Pikett_UBS@pidas.com",
+        "name": "Pikett UBS"
+    },
+    {
+        "id" : 38,
+        "email": "tat.Pitagora@pidas.com",
+        "name": "Pitagora"
+    },
+    {
+        "id" : 39,
+        "email": "tat.PMG@pidas.com",
+        "name": "PMG"
+    },
+    {
+        "id" : 40,
+        "email": "tat.PWC@pidas.com",
+        "name": "PWC"
+    },
+    {
+        "id" : 41,
+        "email": "tat.PWC iPhone Rollout@pidas.com",
+        "name": "PWC iPhone Rollout"
+    },
+    {
+        "id" : 42,
+        "email": "tat.Sky@pidas.com",
+        "name": "Sky"
+    },
+    {
+        "id" : 43,
+        "email": "tat.Swisslog@pidas.com",
+        "name": "Swisslog"
+    },
+    {
+        "id" : 44,
+        "email": "tat.TAH@pidas.com",
+        "name": "TAH"
+    },
+    {
+        "id" : 45,
+        "email": "tat.UPK@pidas.com",
+        "name": "UPK"
+    },
+    {
+        "id" : 46,
+        "email": "tat.WBN_Dispatcher@pidas.com",
+        "name": "MA01 WBN"
+    },
+    {
+        "id" : 47,
+        "email": "tat.Zentrale SSF@pidas.com",
+        "name": "PIDAS: CORE"
+    },
+    {
+        "id" : 48,
+        "email": "tat.Test@pidas.com",
+        "name": "PIDAS: Test"
+    },
+    {
+        "id" : 49,
+        "email": "tat.CORE_Wien@pidas.com",
+        "name": "CORE: Wien"
+    },
+    {
+        "id" : 50,
+        "email": "tat.Magna_OutofService@pidas.com",
+        "name": "Magna (OutOfService)"
+    },
+    {
+        "id" : 51,
+        "email": "tat.Ringier@pidas.com",
+        "name": "Ringier"
+    },
+    {
+        "id" : 52,
+        "email": "tat.IBM_IMI@pidas.com",
+        "name": "IBM IMI"
+    },
+    {
+        "id" : 53,
+        "email": "tat.Kantonsspital_Aarau@pidas.com",
+        "name": "Kantonsspital Aarau"
+    },
+    {
+        "id" : 54,
+        "email": "tat.Kantonsspital_Aarau_Dispatcher@pidas.com",
+        "name": "Kantonsspital Aarau Dispatcher"
+    },
+    {
+        "id" : 55,
+        "email": "tat.KSA_TEST@pidas.com",
+        "name": "KSA Test"
+    },
+    {
+        "id" : 56,
+        "email": "tat.RHI@pidas.com",
+        "name": "RHI"
+    },
+    {
+        "id" : 57,
+        "email": "tat.AVL@pidas.com",
+        "name": "AVL"
+    },
+    {
+        "id" : 58,
+        "email": "tat.PWC_beA_Rollout@pidas.com",
+        "name": "PWC beA Rollout"
+    },
+    {
+        "id" : 59,
+        "email": "tat.IBM_LindtSpruengli@pidas.com",
+        "name": "IBM LindtSpruengli"
+    },
+    {
+        "id" : 60,
+        "email": "tat.CORA@pidas.com",
+        "name": "PIDAS: CORA"
+    },
+    {
+        "id" : 61,
+        "email": "tat.AHT@pidas.com",
+        "name": "AHT"
+    },
+    {
+        "id" : 62,
+        "email": "tat.Amann_Girrbach_Rollout@pidas.com",
+        "name": "AmannGirrbach Rollout"
+    },
+    {
+        "id" : 63,
+        "email": "tat.PORR@pidas.com",
+        "name": "PORR"
+    }
+]
