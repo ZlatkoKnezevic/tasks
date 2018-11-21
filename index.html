@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=11" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+	<meta name="description" content="CORE.form - CORE trueAct Tasks Form">
+	<meta name="keywords" content="Voxtron, CORE, trueAct, Form">
+	<meta name="author" content="PIDAS AG">
+	<title>trueAct Tasks | CORE.form</title>
+	
+	<!-- jQuery, Popper, Tether, Bootstrap JavaScript etc. -->
+	<script src="./vendors/jquery/jquery-3.3.1.min.js"></script>
+	<script src="./vendors/moment/moment.js"></script>
+	<script src="./vendors/moment/moment-with-locales.js"></script>
+	<script src="./vendors/popper/popper.min.js"></script>
+	<script src="./vendors/tether/tether.min.js"></script>
+	<script src="./vendors/bootstrap/bootstrap.min.js"></script>
+	<script src="./vendors/bootstrap/bootstrap-datetimepicker.min.js"></script>
+	<script src="./vendors/angular/angular.min.js"></script>
+	
+	<!-- FontAwesome -->
+	<script src="./vendors/fontawsome/all.js"></script>
+	
+	<!-- Favicons, Mobile Icons, Fonts, Colors etc. -->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/ico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="img/ico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/ico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/ico/favicon-16x16.png">
+	<link rel="manifest" href="img/ico/manifest.json">
+	<meta name="msapplication-TileColor" content="#C51A1B">
+	<meta name="msapplication-TileImage" content="img/ico/ms-icon-144x144.png">
+	<meta name="theme-color" content="#C51A1B">
+	
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="./css/all.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<!-- datetime picker css -->
+	<link rel="stylesheet" href="./css/bootstrap-datetimepicker.min.css">
+	<!-- own style.css -->
+	<link rel="stylesheet" href="./css/style.css">
+	
+	
+	<!-- Header Content -->
+
+	<!-- Polyfills to make sure that IE10 plays nice -->
+	<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+</head>
+
+<!-- load the queues once the body is loaded -->
+<body onload="loadQueues()">
+	
+	<div class="container-fluid">
+		<h1 style="text-align: center; font-family: 'Panton Light'; src: './fonts/Panton-LightCaps.otf'"><span> trueAct Tasks
+		</span></h1>
+	</div>
+	
+	<form id='taskForm'>
+		<div class="container-fluid">
+			<!-- Kundenname -->
+			<div class="form-group form-inline justify-content-center">
+				
+				<label style="width: 8em" for="user-name" class="panton">Kundenname:</label>
+				<!-- Vorname -->
+				<input type="text" class="form-control col-xl-2" id="vorname" name="vorname" placeholder="Vorname" pattern=".{2,}"
+				required title="Mindestens 2 Zeichen benötigt!">
+				<!-- Nachname -->
+				<input type="text" class="form-control col-xl-2" id="nachname" name="nachname" placeholder="Nachname" pattern=".{2,}"
+				required title="Mindestens 2 Zeichen benötigt!">
+				
+			</div>
+			<!-- contact -->
+			<div class="form-group form-inline justify-content-center">
+				
+				<label style="width: 8em" for="contact">Kontaktdaten:</label>
+				<!-- telephone number -->
+				<input type="text" class="form-control col-xl-2" id="contact_tel" name="contact_tel" pattern="^\+{1}[0-9]{6,15}"
+				placeholder="+43123456789" title="Format mit Ländercode benötigt! (z.B.: +43123456789)"
+				onfocusout="cleanTelNumber()">
+				<!-- email -->
+				<input type="text" class="form-control col-xl-2" id="contact_email" name="contact_email" pattern="^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+				placeholder="mail@company.com" title="	Gültige E-Mail Adresse benötigt!">
+				
+			</div>
+			<!--Referenzticket-->
+			<div class="form-group form-inline justify-content-center">
+				
+				<label style="width: 8em" for="ticketnr">Referenz</label>
+				<input type="text" class="form-control col-xl-4" id="ticketnr" name="ticketnr" placeholder="z.B. Ticketnummer">
+				
+			</div>
+			<!-- message text -->
+			<div class="form-group form-inline justify-content-center">
+				<label style="width: 8em" for="nachricht">Nachricht:</label>
+				<textarea class="form-control col-xl-4" id="nachricht" rows="5" name="nachricht" placeholder="Beschreibung des Tasks"
+				required title="Mindestens 10 Zeichen benötigt!" minlength="10"></textarea>
+				
+			</div>
+			
+			
+			<!--Mandat-->
+			<div class="form-group form-inline justify-content-center">
+				<label style="width: 8em" for="queue">Mandat:</label>
+				<select id="queue" class="form-control col-xl-4" name="queue" placeholder="Ein Mandat wählen" required></select>
+			</div>
+			
+			<hr>
+			<!-- Date and time -->
+			<div class="form-group form-inline justify-content-center">
+				
+				
+				<label style="width: 8em" for="datetimepicker">Termin:</label>
+				
+				<div class='col-sm-auto'>
+					<input style="min-width : 13em;" type='datetime' class="form-control" id='datetimepicker' name="datetime" autocomplete="off" />
+				</div>
+				<!-- submit button -->
+				<button type="submit" id="absenden" class="btn btn-outline-danger col-sm-auto" value="Absenden">Task aufgeben</button>
+				<!-- clear/reload button -->
+				<div id="clear" class="btn btn-outline-dark col-sm-auto" onclick="clearForm()"><i class="fa fa-trash"></i></div>
+			</div>
+			<div class="form-group form-inline justify-content-center">
+			<div id="success_message" class="btn btn-success">Task wurde erfolgreich an trueAct übermittelt!</div>
+			<div id="fail_message" class="btn btn-danger">Aufgrund von einem unbekannten Fehler konnte der Task nicht an trueAct übermittelt werden. <br>Sollte das Problem erneut auftreten, bitte die Störung melden!</div>
+			</div>
+		</div>
+	</form>
+	<!-- scripts -->
+	<script src="./scripts/config.js"></script>
+	<script src="./scripts/api.js"></script>
+	<script src="./scripts/datetime.js"></script>
+	<script src="./scripts/queue_loader.js"></script>
+	<script src="./scripts/elastic.js"></script>
+	<script src="./scripts/submit_form.js"></script>
+	<script src="./scripts/parse_telnumber.js"></script>
+	<script src="./scripts/clean_form.js"></script>
+	<script src="./scripts/loadJSON.js"></script>
+	
+	<hr>
+	<footer>
+		<p style="text-align: center; font-size: .7em">&copy; 2018 PIDAS AG</p>
+	</footer>
+</body>
+
+</html>

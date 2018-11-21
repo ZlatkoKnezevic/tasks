@@ -1,0 +1,53 @@
+
+/* set spacing between input fields and buttons to 2px */
+button, input {
+    margin: 2px;
+}
+
+/* load font panton */
+@font-face {
+    font-family: "panton";
+    src: url('../fonts/Panton-Light.woff') format("woff");
+}
+
+
+h1, label, div, span {
+    font-family: panton, monospace;
+}
+
+/* set success message to invisible on loading */
+#success_message {
+    display: none;
+}
+
+/* set success message to invisible on loading */
+#fail_message {
+    display: none;
+}
+
+.fa-arrow-up {
+    color: #555;
+}
+
+.fa-arrow-down {
+    color: #555;
+}
+
+.fa-arrow-left {
+    color: #555;
+}
+
+.fa-arrow-right {
+    color: #555;
+}
+
+.btn-outline-danger {
+    color: #c51a1b;
+}
+
+.col-xl-2 {
+    min-width: 200px;
+}
+.col-xl-4 {
+    min-width: 404px;
+}
