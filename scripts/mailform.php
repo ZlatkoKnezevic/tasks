@@ -1,7 +1,7 @@
 <?php
 
 	$to_email = $_POST['to_email'];
-	$subject = "tA tasks test mail" . $_POST['queue'];
+	$subject = "trueAct.task: " . $_POST['queue'];
 	$message =  "vorname: " . $_POST['vorname'] . "\n";
 	$message .= "nachname: " . $_POST['nachname'] . "\n";
 	$message .= "contact_tel: " . $_POST['contact_tel'] . "\n";
