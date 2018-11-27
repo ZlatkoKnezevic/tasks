@@ -24,11 +24,8 @@ function submitForm() {
     var datetime = $("#datetimepicker").val();
     var to_email = getEmail(queue);
     var username = document.getElementsByName("username")[0].value;
+
     
-    if (datetime == "") {
-        datetime = timestampdatetime;
-        
-    }
     // fill the elastic variable for elastic logging
     var elastic = {
         "error" : "",
@@ -40,8 +37,8 @@ function submitForm() {
         "mail": contact_email,
         "reference": ticketnr,
         "message": nachricht,
-        "timetask": datetime,
-        "timetaskdate": datetime.slice(0,10),
+        "timetask": datetime == "" ? timestampdatetime : datetime,
+        "timetaskdate": datetime == "" ? timestampdatetime.slice(0,10) : datetime.slice(0,10),
         "timestampdate": timestampdate,
         "timestampdatetime": timestampdatetime
 
