@@ -1,72 +1,132 @@
 [
-  {
-      "id"    : 10,  
-      "email" : "tat.Amann_Girrbach@pidas.com",
-      "name"  : "AmannGirrbach"
-  },
-{
-      "id"    : 8,  
-      "email" : "tat.Avectris@pidas.com",
-      "name"  : "Avectris"
-  },
-{
-      "id"    : 57,  
-      "email" : "tat.AVL@pidas.com",
-      "name"  : "AVL"
-  },
-  {
-      "id"    : 15,  
-      "email" : "tat.CityCom@pidas.com",
-      "name"  : "CityCom"
-  }, 
-  {
-      "id"    : 16,  
-      "email" : "tat.Daiichi_Sankyo@pidas.com",
-      "name"  : "DaiichiSankyo"
-  },
-{
-      "id"    : 27,  
-      "email" : "tat.Keba@pidas.com",
-      "name"  : "Keba"
-  },
-{
-      "id"    : 29,
-      "email" : "tat.MA01@pidas.com",
-      "name"  : "MA01"
-  },
-{
-      "id"    : 30,  
-      "email" : "tat.Mondi@pidas.com",
-      "name"  : "Mondi"
-  },
-{
-      "id"    : 39,
-      "email" : "tat.PMG@pidas.com",
-      "name"  : "PMG"
-  },
-{
-      "id"    : 63,
-      "email" : "tat.PORR@pidas.com",
-      "name"  : "PORR"
-  },
-{
+    {
+        "id" : 2,
+        "email": "tat.AIT@pidas.com",
+        "name": "AIT"
+    },
+    {
+        "id" : 5,
+        "email": "tat.ITG@pidas.com",
+        "name": "ITG"
+    },
+	{
       "id"    : 6,
       "email" : "tat.Prinzhorn@pidas.com",
       "name"  : "Prinzhorn"
-  },
-{
-      "id"    : 42,  
-      "email" : "tat.Sky@pidas.com",
-      "name"  : "Sky"
-  },
-  {
-      "id"    : 43,  
-      "email" : "tat.Swisslog@pidas.com",
-      "name"  : "Swisslog"
-  },
-{
+  	},
+	{
+      "id"    : 8,  
+      "email" : "tat.Avectris@pidas.com",
+      "name"  : "Avectris"
+  	},
+	{
+      "id"    : 10,  
+      "email" : "tat.Amann_Girrbach@pidas.com",
+      "name"  : "AmannGirrbach"
+  	},
+  	{
+      "id"    : 15,  
+      "email" : "tat.CityCom@pidas.com",
+      "name"  : "CityCom"
+  	}, 
+  	{
+      "id"    : 16,  
+      "email" : "tat.Daiichi_Sankyo@pidas.com",
+      "name"  : "DaiichiSankyo"
+  	},
+    {
+        "id" : 18,
+        "email": "tat.ESTAG@pidas.com",
+        "name": "ESTAG"
+    },
+    {
+        "id" : 19,
+        "email": "tat.Graz_Linien@pidas.com",
+        "name": "Holding Graz Linien"
+    },
+    {
+        "id" : 20,
+        "email": "tat.IBM_MIS_AT@pidas.com",
+        "name": "IBM MIS (AT)"
+    },
+    {
+        "id" : 21,
+        "email": "tat.IBM_MIS_CH@pidas.com",
+        "name": "IBM MIS (CH)"
+    },
+    {
+        "id" : 22,
+        "email": "tat.IBM_MedAustron@pidas.com",
+        "name": "IBM MedAustron"
+    },
+    {
+        "id" : 26,
+        "email": "tat.Kantonsspital_Baden@pidas.com",
+        "name": "Kantonsspital Baden"
+    },
+	{
+      "id"    : 27,  
+      "email" : "tat.Keba@pidas.com",
+      "name"  : "Keba"
+  	},
+    {
+        "id" : 28,
+        "email": "tat.Krages@pidas.com",
+        "name": "Krages"
+    },
+	{
+      "id"    : 29,
+      "email" : "tat.MA01@pidas.com",
+      "name"  : "MA01"
+  	},
+	{
+      "id"    : 30,  
+      "email" : "tat.Mondi@pidas.com",
+      "name"  : "Mondi"
+  	},
+    {
+        "id" : 31,
+        "email": "tat.Neuroth@pidas.com",
+        "name": "Neuroth"
+    },
+	{
       "id"    : 36,  
       "email" : "tat.PIDAS_Testhotline@pidas.com",
       "name"  : "PIDAS: Testhotline"
-  }
+  	},
+	{
+      "id"    : 39,
+      "email" : "tat.PMG@pidas.com",
+      "name"  : "PMG"
+  	},
+	{
+      "id"    : 42,  
+      "email" : "tat.Sky@pidas.com",
+      "name"  : "Sky"
+  	},
+  	{
+      "id"    : 43,  
+      "email" : "tat.Swisslog@pidas.com",
+      "name"  : "Swisslog"
+  	},
+    {
+        "id" : 44,
+        "email": "tat.TAH@pidas.com",
+        "name": "TAH"
+    },
+    {
+        "id" : 53,
+        "email": "tat.Kantonsspital_Aarau@pidas.com",
+        "name": "Kantonsspital Aarau"
+    },
+	{
+      "id"    : 57,  
+      "email" : "tat.AVL@pidas.com",
+      "name"  : "AVL"
+  	},
+	{
+      "id"    : 63,
+      "email" : "tat.PORR@pidas.com",
+      "name"  : "PORR"
+  	}
 ]
