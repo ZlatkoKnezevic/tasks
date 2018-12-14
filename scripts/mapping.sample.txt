@@ -95,7 +95,7 @@ As no comments are permitted in JSON, this file is neccesary
     },
     {
         "id" : 19,
-        "email": "tat.Holding_Graz_Linien@pidas.com",
+        "email": "tat.Graz_Linien@pidas.com",
         "name": "Holding Graz Linien"
     },
     {
@@ -130,7 +130,7 @@ As no comments are permitted in JSON, this file is neccesary
     },
     {
         "id" : 26,
-        "email": "tat.Kantonsspital_Baden@pidas.com",
+        "email": "tat.KSB@pidas.com",
         "name": "Kantonsspital Baden"
     },
     {
@@ -265,7 +265,7 @@ As no comments are permitted in JSON, this file is neccesary
     },
     {
         "id" : 53,
-        "email": "tat.Kantonsspital_Aarau@pidas.com",
+        "email": "tat.KSA@pidas.com",
         "name": "Kantonsspital Aarau"
     },
     {
@@ -275,7 +275,7 @@ As no comments are permitted in JSON, this file is neccesary
     },
     {
         "id" : 55,
-        "email": "tat.KSA_TEST@pidas.com",
+        "email": "tat.KSA_Test@pidas.com",
         "name": "KSA Test"
     },
     {
