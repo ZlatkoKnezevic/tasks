@@ -70,6 +70,11 @@
         "name": "Kantonsspital Baden"
     },
     {
+        "id": 65,
+        "email": "tat.KAV@pidas.com",
+        "name": "KAV"
+    },
+    {
         "id": 27,
         "email": "tat.Keba@pidas.com",
         "name": "Keba"
