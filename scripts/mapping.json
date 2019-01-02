@@ -12,7 +12,7 @@
     {
         "id": 10,
         "email": "tat.Amann_Girrbach@pidas.com",
-        "name": "AmannGirrbach"
+        "name": "Amann Girrbach"
     },
     {
         "id": 8,
@@ -27,7 +27,7 @@
     {
         "id": 16,
         "email": "tat.Daiichi_Sankyo@pidas.com",
-        "name": "DaiichiSankyo"
+        "name": "Daiichi Sankyo"
     },
     {
         "id": 18,
@@ -70,11 +70,6 @@
         "name": "Kantonsspital Baden"
     },
     {
-        "id": 65,
-        "email": "tat.KAV@pidas.com",
-        "name": "KAV"
-    },
-    {
         "id": 27,
         "email": "tat.Keba@pidas.com",
         "name": "Keba"
@@ -88,6 +83,11 @@
         "id": 29,
         "email": "tat.MA01@pidas.com",
         "name": "MA01"
+    },
+    {
+        "id": 65,
+        "email": "tat.KAV@pidas.com",
+        "name": "MA01 KAV"
     },
     {
         "id": 30,

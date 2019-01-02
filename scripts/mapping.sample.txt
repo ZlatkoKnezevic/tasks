@@ -51,7 +51,7 @@ As no comments are permitted in JSON, this file is neccesary
     {
         "id" : 10,
         "email": "tat.Amann_Girrbach@pidas.com",
-        "name": "AmannGirrbach"
+        "name": "Amann Girrbach"
     },
     {
         "id" : 11,
@@ -81,7 +81,7 @@ As no comments are permitted in JSON, this file is neccesary
     {
         "id" : 16,
         "email": "tat.Daiichi_Sankyo@pidas.com",
-        "name": "DaiichiSankyo"
+        "name": "Daiichi Sankyo"
     },
     {
         "id" : 17,
@@ -291,7 +291,7 @@ As no comments are permitted in JSON, this file is neccesary
     {
         "id" : 58,
         "email": "tat.PWC_beA_Rollout@pidas.com",
-        "name": "PWC beA Rollout"
+        "name": "PWC bei Rollout"
     },
     {
         "id" : 59,
@@ -321,6 +321,6 @@ As no comments are permitted in JSON, this file is neccesary
     {
         "id": 65,
         "email": "tat.KAV@pidas.com",
-        "name": "KAV"
+        "name": "MA01 KAV"
     }
 ]
