@@ -7,7 +7,7 @@ function loginToActiveDirectory() {
 			crossDomain: true
 		})
 			.done(function(response) {
-				window.agentId = response.agentid;
+				window.agentId = JSON.parse(response).agentid;
 				$.ajax({
 					method: "GET",
 					url: window.location.protocol + "//" +
