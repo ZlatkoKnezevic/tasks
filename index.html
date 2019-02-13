@@ -75,10 +75,10 @@
 				<label style="width: 8em" for="user-name" class="panton">Kundenname:</label>
 				<!-- Vorname -->
 				<input type="text" class="form-control col-xl-2" id="vorname" name="vorname" placeholder="Vorname" pattern=".{2,}"
-				required title="Mindestens 2 Zeichen benötigt!">
+				 title="Mindestens 2 Zeichen benötigt!">
 				<!-- Nachname -->
 				<input type="text" class="form-control col-xl-2" id="nachname" name="nachname" placeholder="Nachname" pattern=".{2,}"
-				required title="Mindestens 2 Zeichen benötigt!">
+				 title="Mindestens 2 Zeichen benötigt!">
 				
 			</div>
 			<!-- contact -->
@@ -94,18 +94,11 @@
 				placeholder="mail@company.com" title="	Gültige E-Mail Adresse benötigt!">
 				
 			</div>
-			<!--Referenzticket-->
-			<div class="form-group form-inline justify-content-center">
-				
-				<label style="width: 8em" for="ticketnr">Referenz:</label>
-				<input type="text" class="form-control col-xl-4" id="ticketnr" name="ticketnr" placeholder="z.B. Ticketnummer">
-				
-			</div>
+			
 			<!-- message text -->
 			<div class="form-group form-inline justify-content-center">
 				<label style="width: 8em" for="nachricht">Nachricht:</label>
-				<textarea class="form-control col-xl-4" id="nachricht" rows="5" name="nachricht" placeholder="Beschreibung des Tasks"
-				required title="Mindestens 10 Zeichen benötigt!" minlength="10"></textarea>
+				<textarea class="form-control col-xl-4" id="nachricht" rows="5" name="nachricht" placeholder="Beschreibung des Tasks"></textarea>
 				
 			</div>
 			
@@ -114,6 +107,13 @@
 			<div class="form-group form-inline justify-content-center">
 				<label style="width: 8em" for="queue">Mandat:</label>
 				<select id="queue" class="form-control col-xl-4" name="queue" placeholder="Ein Mandat wählen" required></select>
+			</div>
+			<!--Referenzticket-->
+			<div class="form-group form-inline justify-content-center">
+				
+				<label style="width: 8em" for="ticketnr">Referenz:</label>
+				<input type="text" class="form-control col-xl-4" id="ticketnr" name="ticketnr" placeholder="z.B. Ticketnummer" required>
+				
 			</div>
 			
 			<hr>
