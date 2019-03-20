@@ -109,11 +109,6 @@ As no comments are permitted in JSON, this file is neccesary
         "name": "IBM MIS (CH)"
     },
     {
-        "id" : 22,
-        "email": "tat.IBM_MedAustron@pidas.com",
-        "name": "IBM MedAustron"
-    },
-    {
         "id" : 23,
         "email": "tat.Infoniqa@pidas.com",
         "name": "Infoniqa"
