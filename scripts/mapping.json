@@ -21,12 +21,12 @@
     },
     {
         "id": 15,
-        "email": "tat.CityCom@pidas.com",
+        "email": "vt.CityCom@pidas.com",
         "name": "CityCom"
     },
     {
         "id": 16,
-        "email": "tat.Daiichi_Sankyo@pidas.com",
+        "email": "vt.daiichi_sankyo@pidas.com",
         "name": "Daiichi Sankyo"
     },
     {
@@ -36,17 +36,17 @@
     },
     {
         "id": 19,
-        "email": "tat.Graz_Linien@pidas.com",
+        "email": "vt.graz_linien@pidas.com",
         "name": "Holding Graz Linien"
     },
     {
         "id": 20,
-        "email": "tat.IBM_MIS_AT@pidas.com",
+        "email": "vt.IBM_MIS_AT@pidas.com",
         "name": "IBM MIS (AT)"
     },
     {
         "id": 21,
-        "email": "tat.IBM_MIS_CH@pidas.com",
+        "email": "vt.IBM_MIS_CH@pidas.com",
         "name": "IBM MIS (CH)"
     },
     {
@@ -76,12 +76,12 @@
     },
     {
         "id": 28,
-        "email": "tat.Krages@pidas.com",
+        "email": "vt.krages@pidas.com",
         "name": "Krages"
     },
     {
         "id": 29,
-        "email": "tat.MA01@pidas.com",
+        "email": "vt.MA01@pidas.com",
         "name": "MA01"
     },
     {
@@ -91,7 +91,7 @@
     },
 	{
         "id": 67,
-        "email": "tat.MA01_Passwort@pidas.com",
+        "email": "vt.MA01_Passwort@pidas.com",
         "name": "MA01 Passwort"
     },
     {
