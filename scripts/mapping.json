@@ -1,27 +1,27 @@
 [
     {
         "id": 2,
-        "email": "tat.AIT@pidas.com",
+        "email": "vt.AIT@pidas.com",
         "name": "AIT"
     },
     {
         "id": 57,
-        "email": "tat.AVL@pidas.com",
+        "email": "vt.AVL@pidas.com",
         "name": "AVL"
     },
     {
         "id": 10,
-        "email": "tat.Amann_Girrbach@pidas.com",
+        "email": "vt.Amann_Girrbach@pidas.com",
         "name": "Amann Girrbach"
     },
     {
         "id": 8,
-        "email": "tat.Avectris@pidas.com",
+        "email": "vt.avectris@pidas.com",
         "name": "Avectris"
     },
     {
         "id": 15,
-        "email": "vt.CityCom@pidas.com",
+        "email": "vt.citycom@pidas.com",
         "name": "CityCom"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
         "id": 18,
-        "email": "tat.ESTAG@pidas.com",
+        "email": "vt.ESTAG@pidas.com",
         "name": "ESTAG"
     },
     {
@@ -51,27 +51,27 @@
     },
     {
         "id": 5,
-        "email": "tat.ITG@pidas.com",
+        "email": "vt.ITG@pidas.com",
         "name": "ITG"
     },
     {
         "id": 53,
-        "email": "tat.Kantonsspital_Aarau@pidas.com",
+        "email": "vt.Kantonsspital_Aarau@pidas.com",
         "name": "Kantonsspital Aarau"
     },
     {
         "id": 25,
-        "email": "tat.Kaba@pidas.com",
+        "email": "vt.Kaba@pidas.com",
         "name": "Kaba"
     },
     {
         "id": 26,
-        "email": "tat.Kantonsspital_Baden@pidas.com",
+        "email": "vt.Kantonsspital_Baden@pidas.com",
         "name": "Kantonsspital Baden"
     },
     {
         "id": 27,
-        "email": "tat.Keba@pidas.com",
+        "email": "vt.Keba@pidas.com",
         "name": "Keba"
     },
     {
@@ -86,7 +86,7 @@
     },
     {
         "id": 65,
-        "email": "tat.KAV@pidas.com",
+        "email": "vt.KAV@pidas.com",
         "name": "MA01 KAV"
     },
 	{
@@ -96,12 +96,12 @@
     },
     {
         "id": 30,
-        "email": "tat.Mondi@pidas.com",
+        "email": "vt.Mondi@pidas.com",
         "name": "Mondi"
     },
     {
         "id": 31,
-        "email": "tat.Neuroth@pidas.com",
+        "email": "vt.Neuroth@pidas.com",
         "name": "Neuroth"
     },
     {
@@ -111,17 +111,17 @@
     },
     {
         "id": 63,
-        "email": "tat.PORR@pidas.com",
+        "email": "vt.PORR@pidas.com",
         "name": "PORR"
     },
     {
         "id": 44,
-        "email": "tat.TAH@pidas.com",
+        "email": "vt.TAH@pidas.com",
         "name": "TAH"
     },
     {
         "id": 68,
-        "email": "tat.akh@pidas.com",
+        "email": "vt.akh@pidas.com",
         "name": "AKH"
     }
 
