@@ -19,7 +19,7 @@ function loginToActiveDirectory() {
 						var input = document.createElement("input");
 						input.setAttribute("type", "hidden");
 						input.setAttribute("name", "username");
-						input.setAttribute("value", response.FirstName + " " + response.LastName);
+						input.setAttribute("value", response.FirstName + "." + response.LastName);
 						form.appendChild(input);
 						resolve(true);
 					});
