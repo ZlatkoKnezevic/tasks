@@ -60,11 +60,6 @@
         "name": "Kantonsspital Aarau"
     },
     {
-        "id": 25,
-        "email": "vt.Kaba@pidas.com",
-        "name": "Kaba"
-    },
-    {
         "id": 26,
         "email": "vt.Kantonsspital_Baden@pidas.com",
         "name": "Kantonsspital Baden"
@@ -113,11 +108,6 @@
         "id": 63,
         "email": "vt.PORR@pidas.com",
         "name": "PORR"
-    },
-    {
-        "id": 44,
-        "email": "vt.TAH@pidas.com",
-        "name": "TAH"
     },
     {
         "id": 68,
