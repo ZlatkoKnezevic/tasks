@@ -1,4 +1,3 @@
-
 $("#taskForm").submit(function (event) {
     // cancels the form submission
     event.preventDefault();
@@ -25,12 +24,12 @@ function submitForm() {
     var to_email = getEmail(queue);
     var username = document.getElementsByName("username")[0].value;
 
-    
+
     // fill the elastic variable for elastic logging
     var elastic = {
-        "error" : "",
-        "customer" : queue,
-        "user" : username,
+        "error": "",
+        "customer": queue,
+        "user": username,
         "firstname": vorname,
         "lastname": nachname,
         "phone": contact_tel,
@@ -38,11 +37,12 @@ function submitForm() {
         "reference": ticketnr,
         "message": nachricht,
         "timetask": datetime == "" ? timestampdatetime : datetime,
-        "timetaskdate": datetime == "" ? timestampdatetime.slice(0,10) : datetime.slice(0,10),
+        "timetaskdate": datetime == "" ? timestampdatetime.slice(0, 10) : datetime.slice(0, 10),
         "timestampdate": timestampdate,
         "timestampdatetime": timestampdatetime
 
     }
+    
     // make an ajax call to the mailform.php
     $.ajax({
         type: "POST",
@@ -63,7 +63,9 @@ function submitForm() {
             // visible and then reload the page after 3 seconds
             if (text == "success") {
                 document.getElementById("success_message").style.display = "inline";
-                setTimeout(function () { location.reload(true); }, 3000);
+                setTimeout(function () {
+                    location.reload(true);
+                }, 3000);
                 // if the php-mailer returns anything other than "success",
                 // make the fail message visible and don't reload the page
                 // the user has to reload the page manually (either F5 or the clear button)
@@ -82,12 +84,11 @@ function submitForm() {
 }
 
 // get the email address from mapping jason by comparing queue and name
-function getEmail(queue){
+function getEmail(queue) {
     // because of IE for-in has to be used instead of for-of
-    for (var i in mappingJSON){
-        if(queue === mappingJSON[i].name) {
+    for (var i in mappingJSON) {
+        if (queue === mappingJSON[i].name) {
             return mappingJSON[i].email;
         }
     }
 }
-
