@@ -148,6 +148,12 @@
         "id": 95,
         "email": "vt.tsystems_catch_dispatch_at@pidas.com",
         "name": "T-Systems Alpine AT"
+    },
+    {
+        "id": 117,
+        "email": "vt.tsystems_lbu@pidas.com",
+        "name": "T-Systems LBU"
     }
+
 
 ]
