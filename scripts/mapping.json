@@ -50,11 +50,6 @@
         "name": "IBM MIS (AT)"
     },
     {
-        "id": 21,
-        "email": "vt.IBM_MIS_CH@pidas.com",
-        "name": "IBM MIS (CH)"
-    },
-    {
         "id": 5,
         "email": "vt.ITG@pidas.com",
         "name": "ITG"
