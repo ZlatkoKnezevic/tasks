@@ -145,6 +145,11 @@
         "name": "T-Systems LBU"
     },
     {
+        "id": 122,
+        "email": "vt.xal@pidas.com",
+        "name": "XAL"
+    },
+    {
         "id": 123,
         "email": "vt.ml11@pidas.com",
         "name": "ML11"
