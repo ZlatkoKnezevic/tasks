@@ -158,6 +158,11 @@
         "id": 124,
         "email": "vt.tsystems_inselgruppe@pidas.com",
         "name": "T-Systems Inselgruppe"
+    },
+    {
+        "id": 135,
+        "email": "vt.pwc_rollout@pidas.com",
+        "name": "PWC Rollout"
     }
 
 
